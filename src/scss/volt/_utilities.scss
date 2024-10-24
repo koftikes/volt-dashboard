@@ -1,6 +1,7 @@
+@use "sass:map";
 // check docs https://v5.getbootstrap.com/docs/5.0/utilities/api/
 
-$utilities: map-merge(
+$utilities: map.merge(
   $utilities,
   (
     "blur": (

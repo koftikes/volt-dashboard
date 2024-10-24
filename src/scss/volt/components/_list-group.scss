@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 /**
  * = List groups
  */
@@ -79,7 +81,7 @@
 .news-list{
 	.row{
 		> [class*='col']{
-	  		padding: 0 $spacer/4;
+	  		padding: 0 math.div($spacer, 4);
 		}
 	}
 

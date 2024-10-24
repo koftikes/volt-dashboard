@@ -1,7 +1,13 @@
+# cache, phpstorm directories
+*Thumbs.db
+*.DS_Store
+*.empty
+/.idea/
+
+###> project folders ###
 node_modules/
 .temp/
 html&css/
 dist/
-*.zip
 docs/
-.DS_Store
+*.zip
